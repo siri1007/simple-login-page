@@ -1,0 +1,81 @@
+
+
+    body{
+
+        background-image: url('imgs/Screenshot\ 2024-01-29\ 172231.png');
+        background-size: cover; /* Optional: Adjusts the background image size */
+        /* Other background properties like background-repeat, background-position can be added as needed */
+        background-attachment: fixed;
+
+    }
+
+    .container{
+        height: 500px;
+        width: 400px;
+        margin: auto;
+        position: relative;
+        top: 90px;
+        border-radius: 15px;
+        border: 3px solid black;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0,  0, 0.22) 0px -9px 46px;
+       backdrop-filter: blur(2px);
+
+
+    }
+    h1{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    form {
+        display: flex;
+         flex-direction: column; 
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+    }
+    input[type=text] ,input[type=password]{
+        width: 250px;
+        height: 30px;
+        margin: 10px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-size: 16px;
+        background: transparent;
+        color: white;
+
+      
+        
+    }
+     button[type=submit] {
+        background-color: rgb(70, 130, 180); /* Blue */
+        border: none;
+        color: rgb(210, 189, 189);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2;
+        cursor: pointer;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        border-radius: 25px;
+      
+  
+
+        
+    }
+
+    label{
+        color: white;
+        font-size: 20px;
+       
+    }
+  
+   
+
+
+    
+    
